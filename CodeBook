@@ -14,4 +14,4 @@ The submitted script 'run.analysis.R' completes the goals of the assignment thou
     * gsub was also used to apply descriptive activity names in all columns across the data set
 
 7) The final tidy data of means was then created as an aggregate of All.Data by Subject and Activiy ID.
-    * This final resulting data frame was exported as a .csv file and is included in this repository.
+    * This final resulting data frame was exported as a text file using the write.table function and is included in this repository.
