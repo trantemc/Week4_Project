@@ -52,4 +52,4 @@ names(All.Data)<-gsub("BodyBody", "Body", names(All.Data))
 # Finally, create a final tidy data set with the average for each individual by activity
 FinalTidyData <- aggregate(. ~SubjectID + ActivityID, All.Data, mean)
 # Export the final tidy data set
-write.csv(FinalTidyData, "FinalTidyData.csv", row.names = FALSE)
+write.table(FinalTidyData, "FinalTidyData.txt", row.names = FALSE)
