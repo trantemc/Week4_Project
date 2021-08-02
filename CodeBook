@@ -10,7 +10,8 @@ The submitted script 'run.analysis.R' completes the goals of the assignment thou
    
 5) All.Data was then pared down to only the columns of SubjectID, ActivityID, and those containing mean or standard deviation (std) measurements
 
-6) The ActivityIDs were then swapped out for more descriptive Activity Labels for easier interpretation. (gsub was also used to apply descriptive activity names across the data set)
+6) The ActivityIDs were then swapped out for more descriptive Activity Labels for easier interpretation.
+    * gsub was also used to apply descriptive activity names in all columns across the data set
 
 7) The final tidy data of means was then created as an aggregate of All.Data by Subject and Activiy ID.
     * This final resulting data frame was exported as a .csv file and is included in this repository.
